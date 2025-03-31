@@ -1,0 +1,117 @@
+
+body {
+    background-color: #0a0f1e;
+    color: #00eaff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #001f3f, #004080);
+    padding: 20px;
+    box-shadow: 0 0 15px #00eaff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    background: rgba(0, 0, 50, 0.8);
+    box-shadow: 0 0 10px #00eaff;
+}
+
+nav a {
+    color: #00eaff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #00eaff;
+    color: #001f3f;
+}
+
+.navBar
+{
+    display: flex;
+    list-style: none;
+}
+.main-content {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(10, 15, 30, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00eaff;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 5px #00eaff;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+article
+{
+    width: 70%;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(90deg, #001f3f, #004080);
+    box-shadow: 0 0 15px #00eaff;
+    text-align: center;
+}
+
+.scrolling-headline {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    color: cyan;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.scrolling-headline .content-wrapper {
+    display: flex;
+    width: max-content;
+    animation: scrollHeadline 15s linear infinite;
+}
+
+.scrolling-headline .content {
+    padding-right: 50px; /* Space between repetitions */
+}
+
+/* Keyframes for seamless looping */
+@keyframes scrollHeadline {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+start
+{
+    display: flex;
+    gap:20px;
+}
+
+
+

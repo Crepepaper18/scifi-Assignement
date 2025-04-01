@@ -101,19 +101,26 @@ footer {
     padding-right: 50px; /* Space between repetitions */
 }
 
+.para
+{
+    text-align: justify;
+}
+
+.image
+{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
 /* Keyframes for seamless looping */
 @keyframes scrollHeadline {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
 }
 
-start {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
 img {
+    float: right;
     max-width: 100%;
     height: auto;
     display: block;

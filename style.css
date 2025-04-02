@@ -101,6 +101,11 @@ footer {
     padding-right: 50px; /* Space between repetitions */
 }
 
+.start
+{
+    width: 100%;
+}
+
 .para
 {
     text-align: justify;
@@ -108,23 +113,26 @@ footer {
 
 .image
 {
+    float: right;
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 460px;
+    padding:20px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #0c717a;
+}
+
+img
+{
+    padding-bottom: 10px;
 }
 
 /* Keyframes for seamless looping */
 @keyframes scrollHeadline {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
-}
-
-img {
-    float: right;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 /* Responsive Design */
